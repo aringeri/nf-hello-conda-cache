@@ -1,6 +1,9 @@
 #!/usr/bin/env nextflow
 
 process sayHello {
+    memory '500 MB'
+    conda 'bwa=0.7.15'
+
     input:
     val x
 
