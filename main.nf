@@ -2,7 +2,7 @@
 
 process sayHello {
     memory '500 MB'
-    conda 'env.yml'
+    conda "${projectDir}/env.yml"
 
     input:
     val x
