@@ -2,7 +2,7 @@
 
 process sayHello {
     memory '500 MB'
-    conda 'bwa=0.7.15'
+    conda 'env.yml'
 
     input:
     val x
